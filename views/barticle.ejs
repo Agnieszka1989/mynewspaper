@@ -1,0 +1,28 @@
+<div class="container">
+<%- include("partials/header"); -%>
+
+<div class="jumbotron">
+  <form class="" action="/bdelete" method="post">
+  <div class="card newcard">
+  <img src="<%=barticle.bimage%>" class="card-img-top newcardimg" alt="">
+  <div class="card-body">
+    <h5 class="card-title"><%=barticle.btitle%></h5>
+
+
+    <p class="card-text"><%=barticle.bbody%></p>
+    <hr>
+    <p><%=barticle.bauthor%></p>
+
+  </div>
+</div>
+<div class="text-center">
+
+
+<a href="/barticle/edit/<%= barticle._id %>" class="btn-a btn btn-outline-success ">Edit</a>
+
+
+
+<button class="btn-a btn btn-outline-success"type="button" name="button"><input class="ch" type="checkbox" name="checkbox" value="<%=barticle._id%>" onchange="this.form.submit()"> Delete</button>
+</div>
+</form>
+</div>

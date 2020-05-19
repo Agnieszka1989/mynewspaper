@@ -1,0 +1,39 @@
+
+<div class="container">
+<%- include("partials/header"); -%>
+
+<div class="jumbotron">
+  <form class="" action="/tdelete" method="post">
+  <div class="card newcard">
+  <img src="<%=tarticle.timage%>" class="card-img-top newcardimg" alt="">
+  <div class="card-body">
+    <h5 class="card-title"><%=tarticle.ttitle%></h5>
+
+
+    <p class="card-text"><%=tarticle.tbody%></p>
+    <hr>
+    <p><%=tarticle.tauthor%></p>
+
+  </div>
+</div>
+<div class="text-center">
+
+
+<a href="/tarticle/edit/<%= tarticle._id %>" class="btn-a btn btn-outline-success ">Edit</a>
+
+
+
+<button class="btn-a btn btn-outline-success"type="button" name="button"><input class="ch" type="checkbox" name="checkbox" value="<%=tarticle._id%>" onchange="this.form.submit()"> Delete</button>
+</div>
+</form>
+</div>
+
+
+
+
+
+
+
+<%- include("partials/footer"); -%>
+
+</div>

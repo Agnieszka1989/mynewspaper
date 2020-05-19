@@ -1,0 +1,216 @@
+.attribution { font-size: 11px; text-align: center; }
+.attribution a { color: hsl(228, 45%, 44%); }
+
+.logo-h{
+  height: 60px;
+}
+
+.jum-1{
+  padding: 2px;
+}
+
+.a{
+
+    margin: auto;
+    display: flex;
+    justify-content: space-evenly;
+}
+
+
+.logo{
+  border-radius: 20% 30%;
+}
+
+.wi{
+  height: 400px;
+      width: 100%;
+      object-fit:cover;
+}
+
+.newcard{
+  width: 100%;
+  height: auto;
+  text-align: center;
+  padding: 15px;
+  margin: 5px;
+
+}
+
+
+
+.newcardimg{
+  height: 400px;
+  width: auto;
+  object-fit: cover;
+}
+.c{
+    background: hsl(0, 0%, 98%);
+    display: flex;
+    flex-direction: column;
+    padding: 2rem 0;
+}
+
+.e{
+    background: hsl(0, 0%, 98%);
+    display: flex;
+    flex-direction: column;
+    padding: 2rem 0;
+}
+.e-showcase{
+    width: 70%;
+    margin: auto;
+    padding: 2rem 1rem;
+    font-size: 1.5rem;
+    text-align: center;
+
+ }
+
+ .c-showcase{
+     width: 70%;
+     margin: auto;
+     padding: 1rem 1rem;
+     font-size: 1.5rem;
+     text-align: center;
+
+  }
+
+.btn-a{
+  width: 200px;
+ margin-top: 5%;
+
+}
+ .c-item{
+     border-radius: 2%;
+     margin: 1rem;
+     font-size: 18px;
+     background: white;
+
+ }
+
+ .c-s{
+   width: auto;
+   height: 400px;
+
+ }
+.c-item h5{
+    cursor: pointer;
+    padding: 1rem 0.5rem;
+}
+
+.c-item h5:hover{
+    color: hsl(136, 65%, 51%);
+}
+
+.c-item p{
+    padding: 0rem 0.5rem 2rem 0.5rem;
+    }
+
+    .e-item{
+        border-radius: 2%;
+        margin: 1rem;
+        font-size: 18px;
+        background: white;
+
+    }
+    .e-itemh5{
+       cursor: pointer;
+       padding: 1rem 0.5rem;
+    }
+
+    .e-itemh5:hover{
+       color: hsl(136, 65%, 51%);
+    }
+
+    .e-item p{
+       padding: 0rem 0.5rem 2rem 0.5rem;
+       }
+
+.d{
+    background: hsl(233, 26%, 24%);
+
+}
+
+.d img{
+    padding: 0.7rem 0;
+    margin: 0.4rem 0;
+}
+
+.links{
+    display: flex;
+}
+
+.links li{
+    margin: 1rem;
+    cursor: pointer;
+}
+
+.links li:hover{
+    color: hsl(136, 65%, 51%);
+}
+
+
+
+footer{
+    display: flex;
+    flex-direction: row;
+    margin: 2rem;
+    justify-content: space-evenly;
+}
+
+.footer-img{
+    cursor: pointer;
+    display: flex;
+    justify-content: space-between;
+}
+
+
+.d-item{
+    display: flex;
+    justify-content: space-between;
+    flex-direction: column;
+}
+
+footer li, footer p{
+    color: white;
+}
+
+@media (max-width:1200px){
+
+  .c-img{
+    height: auto;
+    width: 100%;
+    object-fit: cover;
+  }
+
+
+  .c-showcase{
+    text-align: center;
+    padding: 0;
+}
+
+.c-container{
+    text-align: center;
+     display: flex;
+     flex-direction: column;
+     padding: 2rem 0;
+ }
+
+footer{
+    width: 40%;
+    margin: auto;
+    text-align: center;
+    flex-direction: column;
+    padding: 2rem 0;
+}
+
+
+
+footer p{
+    margin-top: 1.5rem;
+}
+
+.links{
+    flex-direction: column;
+
+}
+}

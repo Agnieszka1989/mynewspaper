@@ -1,0 +1,28 @@
+<div class="container">
+<%- include("partials/header"); -%>
+
+<div class="jumbotron">
+  <form class="" action="/hdelete" method="post">
+  <div class="card newcard">
+  <img src="<%=harticle.himage%>" class="card-img-top newcardimg" alt="">
+  <div class="card-body">
+    <h5 class="card-title"><%=harticle.htitle%></h5>
+
+
+    <p class="card-text"><%=harticle.hbody%></p>
+    <hr>
+    <p><%=harticle.hauthor%></p>
+
+  </div>
+</div>
+<div class="text-center">
+
+
+<a href="/harticle/edit/<%= harticle._id %>" class="btn-a btn btn-outline-success ">Edit</a>
+
+
+
+<button class="btn-a btn btn-outline-success"type="button" name="button"><input class="ch" type="checkbox" name="checkbox" value="<%=harticle._id%>" onchange="this.form.submit()"> Delete</button>
+</div>
+</form>
+</div>
